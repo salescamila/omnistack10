@@ -1,0 +1,28 @@
+__COMANDOS EXECUTADOS__
+
+mkdir backend
+cd backend
+yarn init -y
+
+yarn add express
+  - Adiciona o Express
+  - Cria arquivo index.js com configuração inicial
+
+node index.js
+  - Inicia o servidor
+
+yarn add nodemon -D
+  - Adiciona um listener no servidor para auto-refresh
+
+yarn nodemon index.js
+  - Inicia servidor com listener para auto-refresh
+
+yarn dev
+  - No package.json deve-se adicionar
+    "scripts": {
+      "dev": "nodemon index.js"
+    },
+  - Inicia o servidor com "yarn dev"
+
+yarn add mongoose
+  - Realiza a conexão da aplicação com o MongoDB
