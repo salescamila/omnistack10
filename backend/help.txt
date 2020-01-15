@@ -25,4 +25,4 @@ yarn dev
   - Inicia o servidor com "yarn dev"
 
 yarn add mongoose
-  - Realiza a conexão da aplicação com o MongoDB
+  - Realiza a comunicação da aplicação com o MongoDB
