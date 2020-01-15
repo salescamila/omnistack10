@@ -27,6 +27,9 @@ yarn dev
 yarn add mongoose
   - Realiza a comunicação da aplicação com o MongoDB
 
+yarn add axios
+  - Biblioteca que realiza chamadas para outras APIs
+
 
 ___ANOTAÇÕES___
 // Métodos HTTP: GET, POST, PUT, DELETE
