@@ -39,6 +39,7 @@ ___ANOTAÇÕES___
 // Route Params: request.params (Identificar um recurso na alteração ou remoção)
 // Body: request.body (Dados para criação ou alteração de um registro)
 
+
   __REACT - Principais Conceitos__
 // Componente: Bloco isolado de HTML, CSS e JS, o qual não interfere no restante da aplicação
 // Propriedade: Informações que um componente PAI passa para o componente FILHO
