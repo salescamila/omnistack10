@@ -30,6 +30,10 @@ yarn add mongoose
 yarn add axios
   - Biblioteca que realiza chamadas para outras APIs
 
+yarn add cors
+  - Permite que a aplicação React acesse a API Node
+  app.use(cors({ origin: 'http://localhost:3000' })); //Acesso restrito
+  app.use(cors()); //Libera o acesso externo para todo tipo de aplicação
 
 ___ANOTAÇÕES___
 // Métodos HTTP: GET, POST, PUT, DELETE

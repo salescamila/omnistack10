@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes');
+const cors = require('cors');
 
 const app = express();
 
@@ -13,6 +14,7 @@ mongoose.connect(
   }).then(()=>console.log("DB server connect"))
     .catch(e => console.log("DB error", e));
 
+app.use(cors({ origin: 'http://localhost:3000' }));
 app.use(express.json());
 app.use(routes);
 
