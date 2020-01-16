@@ -38,3 +38,18 @@ ___ANOTAÇÕES___
 // Query Params: request.query (Filtros, ordenação, paginação...)
 // Route Params: request.params (Identificar um recurso na alteração ou remoção)
 // Body: request.body (Dados para criação ou alteração de um registro)
+
+  __REACT - Principais Conceitos__
+// Componente: Bloco isolado de HTML, CSS e JS, o qual não interfere no restante da aplicação
+// Propriedade: Informações que um componente PAI passa para o componente FILHO
+// Estado: Informações mantidas pelo componente (Lembrar: imutabilidade)
+
+fonts.google.com
+
+Dentro do arquivo settings.json, adicionar os seguintes parâmetros...
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
