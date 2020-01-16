@@ -30,9 +30,9 @@ function App() {
               <label htmlFor="longitude">Longitude</label>
               <input name="longitude" id="longitude" required />
             </div>
-
-            <button type="submit">Salvar</button>
           </div>
+
+          <button type="submit">Salvar</button>
         </form>
       </aside>
       <main>
