@@ -3,7 +3,6 @@ import React from 'react';
 import './styles.css';
 
 function DevItem({ dev }) {
-
   return(
     <li className="dev-item" >
       <header>
