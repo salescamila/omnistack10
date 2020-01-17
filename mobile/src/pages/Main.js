@@ -3,7 +3,7 @@ import { StyleSheet, Image, View, Text } from 'react-native';
 import MapView, { Marker, Callout } from 'react-native-maps';
 import { requestPermissionsAsync, getCurrentPositionAsync } from 'expo-location';
 
-function Main() {
+function Main({ navigation }) {
   const [currentRegion, setCurrentRegion] = useState(null);
 
   useEffect(() => {
@@ -37,7 +37,9 @@ function Main() {
     <MapView initialRegion={currentRegion} style={styles.map}>
       <Marker coordinate={{ latitude: currentRegion.latitude, longitude: currentRegion.longitude }}>
         <Image style={styles.avatar} source={{ uri: 'https://avatars2.githubusercontent.com/u/16194059?s=460&v=4' }} />
-        <Callout>
+        <Callout onPress={() => {
+          navigation.navigate('Profile', { github_username: 'salescamila'});
+        }}>
           <View style={styles.callout}>
             <Text style={styles.devName}>Camila Sales</Text>
             <Text style={styles.devBio}>Hi, nice to see you here :) I am currently doing the OmniStack from @Rockeseat</Text>
