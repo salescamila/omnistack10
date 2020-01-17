@@ -49,6 +49,8 @@ docs.expo.io
   API Reference -> MapView
     expo install react-native-maps
 
+  API Reference -> Location
+    expo install expo-location
 
 ___ANOTAÇÕES___
 // Métodos HTTP: GET, POST, PUT, DELETE
