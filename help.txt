@@ -52,6 +52,9 @@ docs.expo.io
   API Reference -> Location
     expo install expo-location
 
+  API Reference -> WebView
+    expo install react-native-webview
+
 ___ANOTAÇÕES___
 // Métodos HTTP: GET, POST, PUT, DELETE
 

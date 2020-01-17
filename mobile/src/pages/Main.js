@@ -37,8 +37,9 @@ function Main({ navigation }) {
     <MapView initialRegion={currentRegion} style={styles.map}>
       <Marker coordinate={{ latitude: currentRegion.latitude, longitude: currentRegion.longitude }}>
         <Image style={styles.avatar} source={{ uri: 'https://avatars2.githubusercontent.com/u/16194059?s=460&v=4' }} />
+
         <Callout onPress={() => {
-          navigation.navigate('Profile', { github_username: 'salescamila'});
+          navigation.navigate('Profile', { github_username: 'salescamila' });
         }}>
           <View style={styles.callout}>
             <Text style={styles.devName}>Camila Sales</Text>
