@@ -38,6 +38,17 @@ yarn add cors
 yarn global add expo-cli
   - export PATH="$(yarn global bin):$PATH"
 
+docs.expo.io
+  Managed Workflow -> Guides -> Routing and Navigation
+    https://reactnavigation.org/docs/en/getting-started.html
+    yarn add react-navigation
+    expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
+    yarn add react-navigation-stack
+    yarn add @react-native-community/masked-view
+
+  API Reference -> MapView
+    expo install react-native-maps
+
 
 ___ANOTAÇÕES___
 // Métodos HTTP: GET, POST, PUT, DELETE
@@ -62,3 +73,7 @@ Dentro do arquivo settings.json, adicionar os seguintes parâmetros...
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     }
+
+  __Native__
+docs.expo.io
+Utilizar o React Navigation para o Mapa
