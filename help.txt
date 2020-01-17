@@ -35,6 +35,10 @@ yarn add cors
   app.use(cors({ origin: 'http://localhost:3000' })); //Acesso restrito
   app.use(cors()); //Libera o acesso externo para todo tipo de aplicação
 
+yarn global add expo-cli
+  - export PATH="$(yarn global bin):$PATH"
+
+
 ___ANOTAÇÕES___
 // Métodos HTTP: GET, POST, PUT, DELETE
 
