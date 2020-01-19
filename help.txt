@@ -56,6 +56,10 @@ docs.expo.io
     expo install react-native-webview
 
 yarn add socket.io
+  - backend
+
+yarn add socket.io-client
+  - mobile
 
 
 ___ANOTAÇÕES___
