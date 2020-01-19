@@ -93,3 +93,12 @@ Utilizar o React Navigation para o Mapa
 REQUISICAO Frontend -> Backend -> RESPOSTA Frontend
 
 Protocolo WebSocket
+
+
+    /*setTimeout(() => {
+      socket.emit('message', 'Hello Omnistack!')
+    }, 3000)*/
+
+    /*socket.on('message', text => {
+      console.log(text);
+    })*/
