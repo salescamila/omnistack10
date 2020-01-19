@@ -55,6 +55,9 @@ docs.expo.io
   API Reference -> WebView
     expo install react-native-webview
 
+yarn add socket.io
+
+
 ___ANOTAÇÕES___
 // Métodos HTTP: GET, POST, PUT, DELETE
 
@@ -82,3 +85,7 @@ Dentro do arquivo settings.json, adicionar os seguintes parâmetros...
   __Native__
 docs.expo.io
 Utilizar o React Navigation para o Mapa
+
+REQUISICAO Frontend -> Backend -> RESPOSTA Frontend
+
+Protocolo WebSocket

@@ -1,9 +1,11 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes');
+const http = require('http');
 const cors = require('cors');
 
 const app = express();
+const server = http.Server(app);
 
 //mongoose.Promise = global.Promise;
 mongoose.connect(
@@ -18,4 +20,4 @@ app.use(cors({ origin: 'http://localhost:3000' }));
 app.use(express.json());
 app.use(routes);
 
-app.listen(3333);
+server.listen(3333);
